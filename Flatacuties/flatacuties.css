@@ -1,0 +1,188 @@
+header{
+    background-color: #000000; 
+  color: #fff; 
+  padding: 20px; 
+  text-align: center; 
+  font-size: 64px; 
+  font-family: 'Cambria', sans-serif; 
+}
+
+ol {
+    margin: 20px 0; 
+    padding: 30px; 
+    margin-left: 120px;
+  }
+  
+  /* Apply styles to list items inside the ordered list */
+  ol li {
+    font-size: 36px; 
+    font-family: 'Cambria', sans-serif;
+    margin-bottom: 10px; /* Margin between list items */
+    line-height: 2; /* Line height for better readability */
+  }
+
+  .image-container {
+    position: absolute;
+    height: 300px;
+    top: 250px; /* Adjust the top position as needed */
+    right: 450px; /* Position the container at the right side */
+    border: 2px solid #333; /* Border color and thickness */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensure the image does not overflow */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    display: inline-block; /* Ensure the container only takes the necessary space */
+    visibility: hidden;
+  }
+
+  form {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: aqua;
+  }
+  
+  input {
+    width: 300px; /* Set the width of the input fields */
+    padding: 10px; /* Add padding for better visual */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: dodgerblue;
+    box-shadow: 0 0 5px dodgerblue;
+  }
+  
+  button {
+    background-color: dodgerblue;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: rgb(203, 209, 228);
+  }
+
+  #wForm {
+    background-color: rgb(16, 24, 24);
+    padding: 10px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+    display: block;
+    align-items: center;
+  }
+  h2 {
+    margin-bottom: 20px;
+    color:#ccc
+  }
+  
+  #animalTitle {
+    position: absolute;
+    height: 30px;
+    top: 100px; /* Adjust the top position as needed */
+    right: 530px;
+    font-size: 60px;
+    visibility: hidden;
+  }
+
+  #animalVotes {
+    position: absolute;
+    height: 30px;
+    top: 500px; /* Adjust the top position as needed */
+    right: 600px;
+    font-size: 60px;
+    visibility: hidden;
+  }
+
+  #voteButton {
+    position: absolute;
+    height: 30px;
+    top: 350px;
+    right: auto;
+    font-size: 20px;
+    background-color: rgb(248, 248, 248);
+    color: #080808;
+    padding: 20px; /* Adjust padding as needed */
+    border: solid; /* Remove border to make it look softer */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex; /* Use flexbox for centering */
+    align-items: center; /* Center vertically */
+    justify-content: center;
+  }
+  #unvoteButton {
+    position: absolute;
+    height: 30px;
+    top: 400px;
+    right: auto;
+    font-size: 20px;
+    background-color: rgb(248, 248, 248);
+    color: #080808;
+    padding: 20px; /* Adjust padding as needed */
+    border: solid; /* Remove border to make it look softer */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex; /* Use flexbox for centering */
+    align-items: center; /* Center vertically */
+    justify-content: center;
+  }
+  #deleteButton {
+    position: absolute;
+    height: 30px;
+    top: 450px;
+    right: auto;
+    font-size: 20px;
+    background-color: rgb(248, 248, 248);
+    color: #080808;
+    padding: 20px; /* Adjust padding as needed */
+    border: solid; /* Remove border to make it look softer */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex; /* Use flexbox for centering */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+  }
+
+  #actButtons {
+    position: absolute;
+    height: 250px;
+    width:400px;
+    right: 20px;
+    top:10px;
+    visibility: hidden;
+  }
+
+  #voteButton:hover {
+    background-color: rgb(162, 228, 176);
+    border: none;
+    padding: 25px;
+    transition-duration: 0.5s;
+  }
+
+  #unvoteButton:hover {
+    background-color: rgb(213, 230, 139);
+    border: none;
+    padding: 25px;
+    transition-duration: 0.5s;
+  }
+
+  #deleteButton:hover {
+    background-color: rgb(216, 129, 129);
+    border: none;
+    padding: 25px;
+    transition-duration: 0.5s;
+  }

@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "JSON Server",
+      "author": "John Doe"
+    },
+    {
+      "id": "2",
+      "title": "RESTful APIs",
+      "author": "Jane Smith"
+    },
+    {
+      "id": "4cea"
+    },
+    {
+      "id": "86d9"
+    },
+    {
+      "id": "a45e",
+      "title": "New Post",
+      "author": "Your Name"
+    },
+    {
+      "id": "8",
+      "title": "New Post",
+      "author": "Your Name"
+    },
+    {
+      "id": "1"
+    },
+    {
+      "id": "1"
+    },
+    {
+      "id": "bff1",
+      "title": "Third Article",
+      "content": "Another example!"
+    }
+  ]
+}
